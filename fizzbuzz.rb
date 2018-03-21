@@ -1,5 +1,8 @@
 def fizzbuzz(number)
-  if (number / 3)
+  if (number % 3) == 0
+    print "Fizz"
+  if (number % 5) == 0
+    print "Buzz"
 end
 
 puts "Number for FizzBuzz?"
